@@ -1,0 +1,9 @@
+# Ignore macOS system files
+.DS_Store
+
+__pycache__/
+
+test_code
+
+# Ignore all log files
+*.log

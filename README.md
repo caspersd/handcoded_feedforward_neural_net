@@ -7,7 +7,7 @@ The project involved creating two main neural network implementations:
 
 - Manual Gradient Calculation: The initial network calculated each partial derivative individually. This approach provided foundational insight into backpropagation mechanics and how gradients update weights to minimize error.
 
-- Matrix Calculus Approach: The second implementation improved efficiency by leveraging matrix calculus for calculating partial derivatives. The second implementation improved efficiency by leveraging matrix calculus for calculating partial derivatives. This enabled flexibility in defining an arbitrary number of layers and neurons per layer, overcoming the rigidity of the manual approach.
+- Matrix Calculus Approach: The second implementation improved efficiency by leveraging matrix calculus for calculating partial derivatives. This enabled flexibility in defining an arbitrary number of layers and neurons per layer, overcoming the rigidity of the manual approach.
 
 ## Project Key Concepts
 Gradient Descent Optimization: The network employs gradient descent to minimize the Mean Squared Error (MSE) loss function. By adjusting weights and biases through backpropagation, each layer calculates and propagates error gradients to achieve optimal model performance.

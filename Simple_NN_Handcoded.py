@@ -53,10 +53,11 @@ def Evaluate(wb, x, y):
 def gradient_descent(wb, x, y, epoch, eta):
     #loop through each epoch
     for i in range(epoch):
+        #set the initial derivative values to 0
         dw0 = dw1 = dw2= dw3= dw4=dw5=db0 =db1 = db2 =0.0
-        #loop through for each training value
+        #loop through each training value and calculate output 
         for k in range(x.shape[0]):
-            #pass forward to get intermediate values
+            #pass forward training value to get intermediate values
             z0 = wb["w0"]*x[k,0] + wb["w2"]*x[k,1] + wb["b0"]
             a0 = sig(z0)
             z1 = wb["w1"]*x[k,0] + wb["w3"]*x[k,1] + wb["b1"]

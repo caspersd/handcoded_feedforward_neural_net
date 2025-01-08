@@ -5,7 +5,7 @@ This project was a hands-on exploration of implementing gradient descent to trai
 
 The project involved creating two main neural network implementations:
 
-- Manual Gradient Calculation: The initial network calculated each partial derivative individually. This approach provided foundational insight into backpropagation mechanics and how gradients update weights to minimize error.
+- Manual Gradient Calculation: The initial network was manually coded simple feed forward network (with a fixed number of layers and neurons) where each partial derivative was calculated individually. This approach provided foundational insight into backpropagation mechanics and how gradients update weights to minimize error.
 
 - Matrix Calculus Approach: The second implementation improved efficiency by leveraging matrix calculus for calculating partial derivatives. This enabled flexibility in defining an arbitrary number of layers and neurons per layer, overcoming the rigidity of the manual approach.
 
